@@ -33,8 +33,7 @@ num4 = int(input("please enter number: "))
 print(num4 - 20 * 3)
 
 #5)მოხმარებელს შემოატანინეთ რიცხვები ანუ num,num1,num2...და ასე შემდეგ და საბოლოოდ გამოითვალეთ მაგ რიცხების საშუალო არითმეტიკული
-
-num5 = int(input("please enter number: "))                                                                    
+num5 = int(input("please enter number: "))                     
 num6 = int(input("please enter number"))
 num = int(input("please enter number")) 
 
