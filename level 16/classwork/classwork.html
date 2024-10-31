@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--შექმენით სარეგისტრაციო ფორმა, სადაც მომხმარებელი შეიყვანს:
+
+    სახელს
+    გვარს
+    ემაილს
+    პაროლს
+
+    Gender-ს (გამოიყენეთ radio (უნდა შეეძლოს მხოლოდ 1ის არჩევა)მინიშნება = name)
+
+    ასევე გქონდეთ submit ღილაკი (დადასტურების ღილაკი)
+
+    თქვენი ინფუთები სწორედ უნდა იყვნენ დაკავშირებული label-ებთან id-ების მეშვეობით და ფორმის დადასტურების შემდეგ სწორედ უნდა იყოს მონაცემები გაფილტრული (name ატრიბუტის მეშვეობით)-->
+    <form>
+        <label for="name">name:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="surname">surname:</label>
+        <input type="text" id="surname" name="surname"><br>
+
+        <lebel for="email">email: </lebel>
+        <input type="email" id="email" name="email"><br>
+
+        <lebel for="pass">pasword:</lebel>
+        <input type="password" id="pass" name="password"><br>
+
+        <input type="submit"><br>
+
+        <label for="radio1">male</label>
+        <input type="radio" id="radio1" name="gender">
+
+        <label for="radio2">female</label>
+        <input type="radio" id="radio2" name="gender">
+
+        <lebel for="radio3">gender </lebel>
+        <input type="radio" id="radio3" name="gender">
+    </form>
+</body>
+</html>
