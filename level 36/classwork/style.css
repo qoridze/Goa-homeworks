@@ -1,0 +1,15 @@
+thead{
+    background-color: aqua;
+}
+
+tr{
+    color: black;
+}
+
+tbody{
+    background-color: red;
+}
+
+img{
+    border : 2px color(rgb red green blue);
+}
