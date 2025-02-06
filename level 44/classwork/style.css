@@ -1,0 +1,59 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#mainDiv{
+    background-color:hsl(0, 0%, 12%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+#buttonDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+#locationP{
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(75, 69%, 53%)
+}
+
+#roleP{
+    color: hsl(0, 0% 20%);
+}
+
+#nameP{
+    color: white;
+    font-size: 22px;
+}
+
+#personDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+#mainPersonDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 25px;
+}
+
+.btn:hover{
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 69%, 53%);
+}
