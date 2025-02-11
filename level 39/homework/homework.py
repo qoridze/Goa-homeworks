@@ -1,9 +1,13 @@
-# https://www.codewars.com/kata/570597e258b58f6edc00230d/train/python
+# https://www.codewars.com/kata/55eca815d0d20962e1000106
+def generate_range(start, stop, step):
+    return list(range(start, stop + 1, step))
 
-# https://www.codewars.com/kata/55a14f75ceda999ced000048/train/python
 
-# https://www.codewars.com/kata/596fba44963025c878000039/train/python
-
-# https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/train/python
-
-# https://www.codewars.com/kata/562d8d4c434582007300004e/train/python
+# https://www.codewars.com/kata/576b93db1129fcf2200001e6
+def sum_array(arr):
+    if arr == None or len(arr) < 3:
+        return 0
+    return sum(arr) - max(arr) - min(arr)
+# https://www.codewars.com/kata/5513795bd3fafb56c200049e
+def count_by(x, n):
+    return [x * i for i in range(1, n + 1)]

@@ -1,30 +1,15 @@
-
-# https://www.codewars.com/kata/539ee3b6757843632d00026b/train/python
-
-# https://www.codewars.com/kata/5aba780a6a176b029800041c/train/python
-
-# https://www.codewars.com/kata/52f3149496de55aded000410/train/python
-
-# https://www.codewars.com/kata/5813d19765d81c592200001a/train/python
-
-# https://www.codewars.com/kata/5300901726d12b80e8000498/train/python
-
-# https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/train/python
-
-# https://www.codewars.com/kata/576b93db1129fcf2200001e6/train/python
-
-
-
-
-# https://www.codewars.com/kata/5390bac347d09b7da40006f6/train/python
-
-# https://www.codewars.com/kata/586f6741c66d18c22800010a/train/python
-
-# https://www.codewars.com/kata/56a946cd7bd95ccab2000055
-
-# https://www.codewars.com/kata/5601409514fc93442500010b/train/python
-
-# https://www.codewars.com/kata/57f780909f7e8e3183000078/train/python
-
-# https://www.codewars.com/kata/53dc23c68a0c93699800041d/train/python
-
+# https://www.codewars.com/kata/5168bb5dfe9a00b126000018/train/python
+def solution(string):
+    return string[::-1]
+# https://www.codewars.com/kata/55685cd7ad70877c23000102/train/python
+def make_negative( number ):
+    return -abs(number)
+# https://www.codewars.com/kata/56dec885c54a926dcd001095/train/python
+def opposite(number):
+    return -number
+# https://www.codewars.com/kata/57a0e5c372292dd76d000d7e/train/python
+def repeat_str(repeat, string):
+    return string * repeat
+# https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/python
+def remove_char(s):
+    return s[1:-1]
