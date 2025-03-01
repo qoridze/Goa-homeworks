@@ -9,3 +9,9 @@
 #                 new_string.append(string[i])
 #         result.append(''.join(new_string))
 #     return result
+# https://www.codewars.com/kata/57a1ae8c7cb1f31e4e000130/train/python
+def get_min_max(seq):
+    if len(seq) == 0:
+        return None, None  
+    return min(seq), max(seq)
+
