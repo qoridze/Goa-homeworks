@@ -1,0 +1,54 @@
+
+.car-container {
+    width: 75%; 
+    margin: 0 auto; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.car-container img {
+    width: 100%; 
+    height: auto; 
+}
+
+
+.car-container h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+
+.car-container p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 1200px) {
+    .car-container {
+        width: 80%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .car-container {
+        width: 90%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .car-container {
+        width: 100%; 
+    }
+
+    .car-container h1 {
+        font-size: 1.5em; 
+    }
+
+    .car-container p {
+        font-size: 1em; 
+    }
+}
