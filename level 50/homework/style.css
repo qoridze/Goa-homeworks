@@ -73,3 +73,7 @@ button.remove-btn {
 button.remove-btn:hover {
     background-color: darkred;
 }
+
+body{
+    background-color: rgb(123, 117, 231);
+}

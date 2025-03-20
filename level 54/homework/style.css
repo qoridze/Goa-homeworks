@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .holiday-div {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .holiday-div img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .holiday-div p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .holiday-div {
+      width: 80%;
+    }
+  
+    .holiday-div img {
+      width: 90%;
+    }
+  
+    .holiday-div p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .holiday-div {
+      width: 95%;
+    }
+  
+    .holiday-div img {
+      width: 100%;
+    }
+  
+    .holiday-div p {
+      font-size: 0.9rem;
+    }
+  }
+  
