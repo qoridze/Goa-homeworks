@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+}
+
+#imgDiv {
+    background-image: url("https://static.my.ge/myauto/catalog/bmw/m4/20106321/20106327/img/0.jpg");
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+#imgDiv:hover {
+    transform: scale(0.5);
+    transform: translate(150px, -200px);
+    border-radius: 50%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.outer {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.inner {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  transition: transform 0.3s ease;
+}
+
+
+.outer:hover {
+  transform: scale(1.2);
+}
+
+.outer:hover .inner {
+  transform: scale(1.5);
+}
+
+  
+
+#t {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+
+  .color-change-div {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    transition: background-color 2s ease;
+  }
+  
+
+.color-change-div {
+    background-color: green;
+  }
+  
